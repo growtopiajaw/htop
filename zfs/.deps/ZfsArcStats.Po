@@ -1,0 +1,18 @@
+zfs/ZfsArcStats.o: zfs/ZfsArcStats.c Macros.h \
+ /data/data/com.termux/files/usr/include/assert.h \
+ /data/data/com.termux/files/usr/include/sys/cdefs.h \
+ /data/data/com.termux/files/usr/include/android/versioning.h \
+ /data/data/com.termux/files/usr/include/android/api-level.h \
+ /data/data/com.termux/files/usr/include/bits/get_device_api_level_inlines.h
+
+Macros.h:
+
+/data/data/com.termux/files/usr/include/assert.h:
+
+/data/data/com.termux/files/usr/include/sys/cdefs.h:
+
+/data/data/com.termux/files/usr/include/android/versioning.h:
+
+/data/data/com.termux/files/usr/include/android/api-level.h:
+
+/data/data/com.termux/files/usr/include/bits/get_device_api_level_inlines.h:
