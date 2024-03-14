@@ -172,7 +172,6 @@ linux_platform_headers = \
 	generic/hostname.h \
 	generic/uname.h \
 	linux/CGroupUtils.h \
-	linux/HugePageMeter.h \
 	linux/IOPriority.h \
 	linux/IOPriorityPanel.h \
 	linux/LibSensors.h \
@@ -196,7 +195,6 @@ linux_platform_sources = \
 	generic/hostname.c \
 	generic/uname.c \
 	linux/CGroupUtils.c \
-	linux/HugePageMeter.c \
 	linux/IOPriorityPanel.c \
 	linux/LibSensors.c \
 	linux/LinuxMachine.c \

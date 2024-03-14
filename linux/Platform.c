@@ -32,7 +32,6 @@ in the source distribution for its full text.
 #include "DiskIOMeter.h"
 #include "FileDescriptorMeter.h"
 #include "HostnameMeter.h"
-#include "HugePageMeter.h"
 #include "LoadAverageMeter.h"
 #include "Machine.h"
 #include "Macros.h"
@@ -219,7 +218,6 @@ const MeterClass* const Platform_meterTypes[] = {
    &SwapMeter_class,
    &MemorySwapMeter_class,
    &SysArchMeter_class,
-   &HugePageMeter_class,
    &TasksMeter_class,
    &UptimeMeter_class,
    &BatteryMeter_class,
